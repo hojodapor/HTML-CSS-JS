@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;0,600;1,200&family=Teko:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+body{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    color: #fff;
+    max-width: 700px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+button{
+    margin: 0;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* javaScript */
+div.cursor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background: gray;
+    border-radius:50%;
+    transform: translate(-50%, -50%);
+
+
+}
